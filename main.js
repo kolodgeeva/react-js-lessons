@@ -1,4 +1,4 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './lessons/Lesson7.Mounting.js';
-ReactDOM.render(<App cat={5}/>, document.getElementById('app'));
+import App from './lessons/Lesson9.Updating.js';
+ReactDOM.render(<App val={0}/>, document.getElementById('app'));
