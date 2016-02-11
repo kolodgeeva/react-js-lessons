@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './lessons/Lesson11.Composable.js';
-ReactDOM.render(<App val={0}/>, document.getElementById('app'));
+import CommentBox from './official_tutorial/CommentBox.js';
+
+ReactDOM.render(<CommentBox url="/comment.json"  pollInterval={2000}/>, document.getElementById('app'));
